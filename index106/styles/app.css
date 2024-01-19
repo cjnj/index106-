@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+section {
+    flex: 12;
+    height: 100%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.sectionA{
+    background-color: aqua;
+}
+
+.sectionB{
+    background-color: grey;
+}
